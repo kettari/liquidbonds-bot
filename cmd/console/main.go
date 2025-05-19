@@ -26,6 +26,7 @@ func main() {
 func initCommands() *Commands {
 	return &Commands{
 		console.NewHelpCommand(),
+		console.NewFetchCommand(),
 	}
 }
 
